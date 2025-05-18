@@ -1,0 +1,5 @@
+Salvar as modificações do projeto
+
+git add . (salvar todos os arquivos na área temporária)
+git commit -m "Mensagem explicativa" (salvar as modificações em uma nova versão)
+git push (enviar para o GitHub)
