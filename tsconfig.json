@@ -1,0 +1,45 @@
+{
+	"display": "Node 22",
+	"_version": "22.14.0",
+
+	"compilerOptions": {
+		"module": "CommonJS",
+		"lib": ["ES2022"],
+		"moduleResolution": "node",
+		"target": "ES2022",
+
+		"strict": true,
+		"alwaysStrict": true,
+		"strictNullChecks": true,
+		"noUncheckedIndexedAccess": true,
+		"noImplicitAny": true,
+		"noImplicitReturns": true,
+		"noImplicitThis": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"allowUnreachableCode": false,
+		"noFallthroughCasesInSwitch": true,
+		"useDefineForClassFields": true,
+
+		"outDir": "build",
+		"declaration": true,
+		"removeComments": false,
+		"resolveJsonModule": true,
+		"esModuleInterop": true,
+		"sourceMap": true,
+
+		"preserveConstEnums": true,
+		"types": ["node", "jest"],
+		"allowSyntheticDefaultImports": true,
+		"allowJs": false,
+		"skipLibCheck": true,
+		"forceConsistentCasingInFileNames": true,
+
+		"baseUrl": ".",
+		"paths": {},
+
+		"typeRoots": ["./node_modules/@types/", "./src/types/"]
+	},
+
+	"exclude": ["./build/**/*", "./node_modules/**/*"]
+}

@@ -1,0 +1,21 @@
+{
+	"jsc": {
+		"keepClassNames": true,
+		"parser": {
+			"syntax": "typescript",
+			"tsx": false,
+			"decorators": true,
+			"dynamicImport": true
+		},
+		"loose": false,
+		"target": "es2022",
+		"baseUrl": ".",
+		"paths": {}
+	},
+	"module": {
+		"type": "commonjs",
+		"importInterop": "swc",
+		"noInterop": false
+	},
+	"sourceMaps": false
+}
