@@ -4,7 +4,7 @@
 	"description": "",
 	"main": "src/index.ts",
 	"scripts": {
-		"dev": "tsx --env-file=.development.env ./src/index.ts",
+		"dev": "npx tsx --env-file=.development.env ./src/index.ts",
 		"dev:debug": "npx tsx --inspect-brk ./src/index.ts",
 		"test:watch": "jest --watch",
 		"test": "jest -i --coverage --colors --verbose --detectOpenHandles",
@@ -31,10 +31,12 @@
 		"@types/jest": "^29.5.14",
 		"@types/node": "^22.15.21",
 		"jest": "^29.7.0",
+		"pino-pretty": "^13.0.0",
 		"typescript": "^5.8.3"
 	},
 	"dependencies": {
 		"discord.js": "^14.19.3",
-		"husky": "^9.1.7"
+		"husky": "^9.1.7",
+		"pino": "^9.7.0"
 	}
 }

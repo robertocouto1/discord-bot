@@ -1,3 +1,5 @@
-console.log(process.env.NODE_ENV);
+import Logger from "@abstractions/Logger";
 
-console.log("caio");
+const logger = Logger.createLogger();
+
+logger.test(process.env.NODE_ENV);

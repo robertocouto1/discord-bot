@@ -36,7 +36,9 @@
 		"forceConsistentCasingInFileNames": true,
 
 		"baseUrl": ".",
-		"paths": {},
+		"paths": {
+			"@abstractions/*": ["./src/abstractions/*"]
+		},
 
 		"typeRoots": ["./node_modules/@types/", "./src/types/"]
 	},
