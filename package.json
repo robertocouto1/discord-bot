@@ -5,7 +5,7 @@
 	"main": "src/index.ts",
 	"scripts": {
 		"dev": "npx tsx --env-file=.development.env ./src/index.ts",
-		"dev:debug": "npx tsx --inspect-brk ./src/index.ts",
+		"dev:debug": "npx tsx --env-file=.development.en --inspect-brk ./src/index.ts",
 		"test:watch": "jest --watch",
 		"test": "jest -i --coverage --colors --verbose --detectOpenHandles",
 		"test:coverage": "jest --coverage",
@@ -22,7 +22,6 @@
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
-	"type": "commonjs",
 	"devDependencies": {
 		"@biomejs/biome": "1.9.4",
 		"@swc/cli": "^0.7.7",

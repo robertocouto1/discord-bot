@@ -11,8 +11,8 @@
 		"target": "es2022",
 		"baseUrl": ".",
 		"paths": {
-      "@abstractions/*": ["./src/abstractions/*"]
-    }
+			"@abstractions/*": ["./src/abstractions/*"]
+		}
 	},
 	"module": {
 		"type": "commonjs",

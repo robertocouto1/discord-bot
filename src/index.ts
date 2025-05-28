@@ -5,7 +5,7 @@ const logger = Logger.createLogger();
 
 logger.warn("warn");
 logger.error("error");
-logger.critical("caio");
+logger.critical(process.env.DISCORD_BOT_TOKEN);
 logger.fatal("fatal");
 
 throw new SystemError("Name Test", "Description Test", true);
